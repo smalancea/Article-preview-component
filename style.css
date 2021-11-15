@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-size: 13px;
+  background-color: hsl(210, 46%, 95%);
+}
+
+.container {
+  display: flex;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 900px;
+  height: 350px;
+  background-color: #fff;
+  border-radius: 13px;
+  box-shadow: 15px 15px 25px hsl(212, 23%, 69%);
+}
+
+.main-photo {
+  overflow-x: hidden;
+  object-fit: cover;
+  object-position: 0;
+  width: 1000px;
+  border-radius: 13px 0 0 13px;
+}
+
+.right-container {
+  margin: 45px 45px 0px 45px;
+}
+
+.top-text {
+  color: hsl(217, 19%, 35%);
+  font-family: 'Manrope', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.middle-text {
+  color: hsl(214, 17%, 51%);
+  font-family: 'Manrope', sans-serif;
+  font-weight: 500px;
+  font-size: 15px;
+  line-height: 170%;
+  margin-top: 20px;
+}
+
+.footer-status {
+  display: flex;
+  position: absolute;
+  bottom: 40px;
+}
+
+.profile-image {
+  width: 44px;
+  height: 44px;
+  border-radius: 22px;
+}
+
+.name {
+  margin-left: 12px;
+  width: 330px;
+}
+
+h2 {
+  margin-top: 3px;
+  color: hsl(217, 19%, 35%);
+  font-family: 'Manrope', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+span {
+  color: hsl(212, 23%, 69%);
+  font-family: 'Manrope', sans-serif;
+  font-weight: 500;
+}
+
+.share-icons {
+  width: 36px;
+  height: 36px;
+  font-size: 27px;
+  background-color: hsl(210, 46%, 95%);
+  border-radius: 18px;
+  text-align: center;
+  margin: 5px;
+}
