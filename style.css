@@ -79,7 +79,7 @@ span {
   font-weight: 500;
 }
 
-.share-icons {
+#share-icon {
   width: 36px;
   height: 36px;
   font-size: 27px;
@@ -87,4 +87,40 @@ span {
   border-radius: 18px;
   text-align: center;
   margin: 5px;
+  box-shadow: 1px 1px 4px hsl(214, 17%, 51%);
+  cursor: pointer;
+}
+
+#share-icon:hover {
+  background-color: hsl(213, 43%, 91%);
+}
+
+#share-icon:active {
+  transform: translate(2px);
+}
+
+#share-options {
+  width: 300px;
+  background-color: hsl(217, 19%, 35%);
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.share {
+  font-size: 16px;
+  color: hsl(212, 23%, 69%);
+  font-family: 'Manrope', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+}
+
+.facebook,
+.twitter,
+.pinterest {
+  padding-left: 20px;
+  width: 26px;
+  height: 26px;
 }

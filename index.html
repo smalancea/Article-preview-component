@@ -15,20 +15,27 @@
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap');
       @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
     </style>
+    <link rel="JavaScript" href="script.js" />
 
     <title>Frontend Mentor | Article preview component</title>
   </head>
   <body>
+    <!-- The main container -->
     <div class="container">
+      <!-- The main photo on the left -->
       <img class="main-photo" src="images/drawers.jpg" />
+      <!-- The container on the right side -->
       <div class="right-container">
+        <!-- Bold top text -->
         <div class="top-text">
           <p>
             Shift the overall look and feel by adding these wonderful touches to
             furniture in your home
           </p>
         </div>
+        <!-- Middle long text -->
         <div class="middle-text">
           <p>
             Ever been in a room and felt like something was missing ? Perhaps it
@@ -36,6 +43,7 @@
             you make any room feel complete.
           </p>
         </div>
+        <!-- Footer -->
         <div class="footer-status">
           <div class="profile-image">
             <img class="profile-image" src="images/avatar-michelle.jpg" />
@@ -44,8 +52,26 @@
             <h2>Michelle Appleton</h2>
             <span>28 Jun 2020</span>
           </div>
-          <div class="share-icons">
+          <div id="share-icon">
             <img src="images/icon-share.svg" />
+          </div>
+          <div id="share-options">
+            <h2 class="share">Share</h2>
+            <img
+              class="facebook"
+              src="images/icon-facebook.svg"
+              alt="facebook-image"
+            />
+            <img
+              class="twitter"
+              src="images/icon-twitter.svg"
+              alt="twitter image"
+            />
+            <img
+              class="pinterest"
+              src="images/icon-pinterest.svg"
+              alt="pinterest image"
+            />
           </div>
         </div>
       </div>
