@@ -79,6 +79,10 @@ span {
   font-weight: 500;
 }
 
+.share-all {
+  position: relative;
+}
+
 #share-icon {
   width: 36px;
   height: 36px;
@@ -100,12 +104,28 @@ span {
 }
 
 #share-options {
+  height: 60px;
   width: 300px;
   background-color: hsl(217, 19%, 35%);
   border-radius: 16px;
   display: flex;
   align-items: center;
   justify-content: center;
+  position: absolute;
+  bottom: 150%;
+  margin-left: -280%;
+  visibility: hidden;
+}
+
+#share-options::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 8px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
 }
 
 .share {

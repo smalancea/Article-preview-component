@@ -1,5 +1,10 @@
-const shareButton = document.getElementsById('share-icons');
+const shareOptions = document.getElementById('share-options');
+const shareIcon = document.getElementById('share-icon');
 
-function displayOptions() {
-  shareButton.classList.toggle('show');
-}
+shareIcon.addEventListener('click', () => {
+  if (shareOptions.style.visibility === 'visible') {
+    shareOptions.style.visibility = 'hidden';
+  } else {
+    shareOptions.style.visibility = 'visible';
+  }
+});
